@@ -48,6 +48,20 @@ s, squash : utiliser le commit, mais fusionner dans le commit précédent
 f, fixup : comme "squash", mais jeter le message de commit
 d, drop : supprimer le commit
 
+
+### rebase interactif edit de commit workflow
+git log 
+git rebase -i HEAD~n
+
+
+pick commitid -> e
+modif de fichier
+git add .
+git commit --amend
+git rebase continue
+
+
+
 ### rebase interactif ajouter des fichier
 git add forgotten-file.txt
 git commit --amend
