@@ -67,4 +67,8 @@ git add forgotten-file.txt
 git commit --amend
 
 
+### voir un commit 
+git show COMMIT_ID
+
+
 
