@@ -70,5 +70,6 @@ git commit --amend
 ### voir un commit 
 git show COMMIT_ID
 
-
+### voir toutes les branch
+git branch -a
 
