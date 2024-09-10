@@ -15,3 +15,5 @@ console.log("hello Samy4");
 console.log("edit rebase i");
 const d = 10;
 const e = 11;
+const a = 1;
+const b = 2;
